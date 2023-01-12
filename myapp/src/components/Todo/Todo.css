@@ -1,0 +1,60 @@
+.todoslist {
+    width: 70%;
+    margin: auto;
+    padding: 24px;
+    border-radius: 4px;
+    box-shadow: o o 6px #ccc;
+    text-align: left;
+}
+
+
+.todo {
+    border: 1px solid rgb(42, 3, 42);
+    margin-bottom: 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+button{
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 4px 8px;
+}.container {
+    max-width: 400px;
+    margin-top: 90px;
+  }
+  .search i {
+    position: absolute;
+  }
+  .search {
+    position: relative;
+  }
+  .icon {
+    padding: 10px;
+    left: 0;
+  }
+  .input-field {
+    text-align: center;
+  }
+  
+  input[type="text"],
+  input[type="text"]:focus {
+    color: #fff;
+    border: none;
+    background: rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+  }
+  .todos li {
+    background: #7f08a3;
+  }
+  .delete {
+    cursor: pointer;
+  }
+  

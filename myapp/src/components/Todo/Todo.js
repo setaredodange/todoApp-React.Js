@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import './Todo.css';
 
 export default class Todo extends Component {
   render() {
     return (
-      <div >
-        <li></li>
+      <div className="todo" style ={{display :'flex'}} >
+        <li className="todo-item" > {this.props.title} </li>
 
         <button className='check-btn'>
             <i className="fas fa-check" aria-hidden="true"></i>
